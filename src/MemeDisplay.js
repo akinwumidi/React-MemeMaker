@@ -7,7 +7,7 @@ const MemeDisplay = (props) => {
             <div className='MemeDisplayBox'>
                 <p className='MemeDisplayBox_TopText'>{props.topMemeText}</p>
                 <p className='MemeDisplayBox_BottomText'>{props.bottomMemeText}</p>
-                <img src={props.RandomMemeImage} name='RandomMemeImage' />
+                <img src={props.RandomMemeImage} name='RandomMemeImage' alt="Generated Meme Image" />
             </div>
         </>
     )

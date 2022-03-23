@@ -47,6 +47,7 @@ class MemeGenerator extends Component {
                 .then(response => response.json())
                 .then(response => {
                     const { memes } = response.data
+                    console.log(memes)
                     this.setState({ memesImgUnfiltered: memes, ApiDataRecieved: true, RandomMemeImage: 'https://i.imgflip.com/23ls.jpg' })
                 })
         }, 2000);
