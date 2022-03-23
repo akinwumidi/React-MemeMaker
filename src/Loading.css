@@ -1,0 +1,10 @@
+.loadingIcon {
+    color: #eb8300;
+    font-size: 70px;
+    margin: 40px 0 40px 0;
+}
+
+.Loading__container p {
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}

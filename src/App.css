@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left top, #ed631e, #eb8300, #e2a100, #d3be00, #bcda00, #d2d600, #e6d200, #f9cd00, #ffa334, #ff766b, #ff58a5, #fb5fdc);
+    height: 2500px;
+}
+
+.MemeGen__Container {
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 45px;
+    padding: 50px 30px;
+    /* width: 80%; */
+    width: 350px;
+    box-shadow:
+        /*The top layer shadow*/
+        1px 1px 1px 1px rgb(0 0 0 / 15%),
+        /*The second layer shadow */
+        11px 2px 0 -5px #eee,
+        /*The second layer shadow*/
+        13px 2px 1px -4px rgb(0 0 0 / 15%),
+        /*The third layer shadow */
+        20px 5px 0 -10px #eee,
+        /*The second layer shadow*/
+        7px 9px 1px -9px rgb(0 0 0 / 15%);
+
+}

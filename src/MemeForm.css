@@ -1,0 +1,23 @@
+  .formInput {
+      padding: 18px;
+      outline: none;
+      border: 1px solid #f1f1f1;
+      box-shadow: 1px 2px 4px #eee;
+      background: #eee;
+      width: 100%;
+      margin: 15px 0;
+  }
+
+  .MemeForm__button {
+      border: none;
+      cursor: pointer;
+      outline: none;
+      padding: 18px;
+      width: 100%;
+      color: #fff;
+      background: #0275d8;
+      border-radius: 6px;
+      /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+      margin: 20px 0;
+  }

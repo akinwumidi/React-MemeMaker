@@ -2,7 +2,7 @@
 # Netlify Link
 - 
 
-# React TodoApp
+# React MemeMaker
 A Simple Meme Maker app that fetches random meme images from an API and returns our meme text on the image
 
 # Steps to use Application
